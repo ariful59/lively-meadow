@@ -1,13 +1,13 @@
 ---
 # Display name
-title: Alex Johnson
+title: Ariful Amin
 
 # Name pronunciation (optional)
 name_pronunciation: ''
 
 # Full name (for SEO)
-first_name: Alex
-last_name: Johnson
+first_name: Ariful
+last_name: Amin
 
 # Pronouns (optional)
 pronouns: he/him
@@ -23,150 +23,131 @@ superuser: true
 highlight_name: true
 
 # Role/position/tagline
-role: Senior AI Research Scientist
+role: AI/ML Engineer | Data Scientist
 
 # Organizations/Affiliations to display in Biography blox
 organizations:
-  - name: Meta AI
-    url: https://ai.meta.com/
+  - name: Malmö University
+    url: https://www.mah.se
+  - name: Samsung R&D Institute Bangladesh
+    url: https://www.samsung.com
 
 # Social network links
-# Need to use another icon? Simply download the SVG icon to your `assets/media/icons/` folder.
 profiles:
   - icon: at-symbol
-    url: 'mailto:alex.johnson@meta.com'
+    url: 'mailto:arifulamindu@gmail.com'
     label: E-mail Me
-  - icon: brands/x
-    url: https://twitter.com/AlexAIResearch
   - icon: brands/github
-    url: https://github.com/alexjohnsonai
+    url: https://github.com/ariful59
+    label: GitHub
   - icon: brands/linkedin
-    url: https://www.linkedin.com/in/alexjohnsonai/
-  - icon: academicons/google-scholar
-    url: https://scholar.google.com/citations?user=alexjohnson
-  - icon: academicons/orcid
-    url: https://orcid.org/0000-0002-1825-0097
+    url: https://www.linkedin.com/in/ariful-amin/
+    label: LinkedIn
 
 interests:
-  - Large Language Models
-  - Computer Vision
-  - Reinforcement Learning
+  - Machine Learning
   - AI Ethics
+  - Data Science
+  - Software Engineering
 
 education:
-  - area: PhD Computer Science (AI Focus)
-    institution: Stanford University
-    icon: ""
-    date_start: 2015-09-01
-    date_end: 2019-06-30
+  - area: Master’s in Applied Data Science
+    institution: Malmö University
+    date_start: 2024-09-01
+    date_end: 2026-06-30
     summary: |
-      Thesis on _Scaling Laws for Neural Language Models_. Supervised by Prof. Andrew Ng. Published 5 papers in NeurIPS and ICML, with 2 best paper awards.
-    button:
-      text: 'Read Thesis'
-      url: 'https://example.com/thesis.pdf'
-  - area: MS Computer Science
-    institution: Carnegie Mellon University
-    icon: ""
-    date_start: 2013-09-01
-    date_end: 2015-05-31
+      Focused on machine learning, big data, cloud analytics, and data visualization.
+  - area: BSc in Computer Science & Engineering
+    institution: University of Dhaka
+    date_start: 2014-01-01
+    date_end: 2018-01-31
     summary: |
-      GPA: 4.0/4.0
-
-      Specialized in machine learning and robotics.
-  - area: BS Computer Science
-    institution: MIT
-    icon: ""
-    date_start: 2009-09-01
-    date_end: 2013-05-31
-    summary: |
-      GPA: 3.9/4.0
-
-      Minored in Mathematics. President of AI Club.
+      Specialized in data structures, algorithms, machine learning, and distributed systems.
 
 work:
-  - position: Senior AI Research Scientist
-    company_name: Meta AI
-    company_url: 'https://ai.meta.com/'
-    icon: ''
-    date_start: 2020-01-01
-    date_end: ''
-    summary: |2-
-      Leading research on multimodal AI systems. Contributed to Llama 2 and other open-source models. 50+ citations in 3 years.
-  - position: AI Research Intern
-    company_name: OpenAI
-    company_url: 'https://openai.com/'
-    icon: ''
-    date_start: 2019-06-01
-    date_end: 2019-12-31
+  - position: Software Programmer
+    company_name: Coal Power Generation Company Bangladesh
+    company_url: 'https://www.coalpowerbd.com'
+    date_start: 2022-04-01
+    date_end: 2024-08-31
     summary: |
-      Worked on GPT-3 scaling. Co-authored paper on prompt engineering.
+      Developed a full-stack asset management infrastructure using React, Django, Docker, and AWS, improving transparency and digitizing inventory processes by 40%.
+      Built and deployed PyTorch-based forecasting models and real-time analytics dashboards, improving maintenance planning accuracy by 20%.
+
+  - position: Lead Engineer
+    company_name: Samsung R&D Institute Bangladesh
+    company_url: 'https://www.samsung.com'
+    date_start: 2022-01-01
+    date_end: 2022-04-30
+    summary: |
+      Led development of the **HeartWise smartwatch app**, enabling real-time health monitoring for 5,000+ cardiac patients.
+      Implemented BLE-based data synchronization pipelines, improving data reliability and enabling Wi-Fi-based smartwatch operation, reducing device costs by 10%.
+
+  - position: Software Engineer
+    company_name: Samsung R&D Institute Bangladesh
+    company_url: 'https://www.samsung.com'
+    date_start: 2018-04-01
+    date_end: 2021-12-31
+    summary: |
+      Developed firmware and IPC components for the **Tizen HeartWise app**, improving data flow across wearable applications.
+      Built automated self-updating systems for wearables, improving reliability and reducing manual maintenance.
+
+  - position: Teaching Assistant (Part-time)
+    company_name: Malmö University
+    company_url: 'https://www.mah.se'
+    date_start: 2025-04-01
+    date_end: ''
+    summary: |
+      Conducted lab sessions for **Python**, **C#/.NET**, and **multi-threaded programming** courses for bachelor students.
+      Enhanced student engagement and satisfaction by organizing events and coordinating feedback with faculty.
 
 # Skills
-# Add your own SVG icons to `assets/media/icons/`
 skills:
   - name: Technical Skills
     items:
       - name: Python & PyTorch
-        description: ''
         percent: 95
-        icon: code-bracket
       - name: Machine Learning
-        description: ''
         percent: 100
-        icon: chart-bar
       - name: Cloud Computing (AWS/GCP)
-        description: ''
         percent: 85
-        icon: cloud
+
   - name: Hobbies
     color: '#eeac02'
     color_border: '#f0bf23'
     items:
-      - name: Hiking in the Rockies
-        description: ''
+      - name: Hiking
         percent: 80
-        icon: person-simple-walk
       - name: Building Custom PCs
-        description: ''
         percent: 90
-        icon: cpu-chip
       - name: Sci-Fi Reading
-        description: ''
         percent: 70
-        icon: book-open
 
 languages:
   - name: English
     percent: 100
-  - name: Spanish
+  - name: Bangla
+    percent: 100
+  - name: Swedish
     percent: 50
 
-# Awards.
-#   Add/remove as many awards below as you like.
-#   Only `title`, `awarder`, and `date` are required.
-#   Begin multi-line `summary` with YAML's `|` or `|2-` multi-line prefix and indent 2 spaces below.
+# Awards
 awards:
-  - title: Best Paper Award
-    url: https://neurips.cc/
-    date: '2022-12-01'
-    awarder: NeurIPS
-    icon: hero/trophy
+  - title: Best Societal Impact Prize
+    awarder: Malmö University
+    date: '2025-04-01'
     summary: |
-      Awarded for groundbreaking work on efficient training of large models.
-  - title: AI Innovation Grant
-    url: https://www.nsf.gov/
-    date: '2021-06-15'
-    awarder: National Science Foundation
-    icon: hero/currency-dollar
+      Awarded for building an accessibility and inclusion solution for Sweden’s national healthcare platform (1177.se).
+  - title: Swedish Institute Scholarship for Global Professionals
+    awarder: Swedish Institute
+    date: '2024-06-15'
     summary: |
-      $500,000 grant for research in ethical AI development.
-  - title: Outstanding PhD Thesis
-    url: https://www.stanford.edu/
-    date: '2019-06-30'
-    awarder: Stanford University
-    icon: hero/academic-cap
+      A fully funded, merit-based scholarship recognizing leadership potential and contributions to sustainable development.
+  - title: Icon of the Month
+    awarder: Samsung R&D Institute
+    date: '2019-12-01'
     summary: |
-      Recognized for contributions to scaling laws in deep learning.
+      Recognized for outstanding technical contributions to the HeartWise health-tech platform.
 ---
 
-Alex Johnson is a Senior AI Research Scientist at Meta AI, where he leads groundbreaking work on large language models and multimodal systems. His research has been published in top conferences like NeurIPS and ICML, with over 10,000 citations. Alex is passionate about pushing the boundaries of AI while ensuring ethical development. Outside of work, he enjoys hiking in the Rockies, building custom PCs, and mentoring the next generation of AI talent.
+Ariful Amin is an **AI/ML Engineer** with expertise in building scalable software solutions and machine learning systems. Currently pursuing a Master's in Applied Data Science at **Malmö University**, he has worked on several impactful projects at **Samsung R&D** and **Coal Power Generation Company Bangladesh**. Ariful is passionate about driving sustainable AI solutions and fostering innovation. Outside of work, he enjoys hiking, building custom PCs, and contributing to AI communities.
